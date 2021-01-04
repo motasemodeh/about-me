@@ -1,0 +1,56 @@
+body {
+    margin: 10px;
+}
+.aboutMe
+{
+text-align: center;
+}
+.paragraphes{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+#bgnBtn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 0;
+}
+
+#bgnBtn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 184, 184);
+    padding: 5px;
+    border: 0;
+}
+
+.copyright
+{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.credits
+{
+    text-align: center;
+    font-size: 13px;
+    color: #555;
+}
+
+#footer
+{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height: 73px;
+   width:100%;
+   background:#999;
+}
+p{
+    margin: 10px !important;
+    padding: 5px !important;
+}
+h1{
+    margin: 10px !important;
+    padding: 5px !important;
+}
