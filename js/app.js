@@ -63,6 +63,42 @@ if (authorLocation.toLowerCase() === 'y')
     // console.log('wrong');
     alert('wrong');
 }
+
+
+for (var i=1; i<=4;i++){
+    var authorFaveWebsite = prompt('How many websites are in the list?');  
+    if(parseInt(authorFaveWebsite) > 10){
+            alert('Too High');
+
+        }else if(parseInt(authorFaveWebsite) < 10){
+            alert('Too Low');
+
+        }else if (authorFaveWebsite === '' || authorFaveWebsite === null){
+            prompt('How many websites are in the list?'); 
+
+        }
+        else if (parseInt(authorFaveWebsite) === 10){
+            score++;
+            alert('correct');
+            break;
+        }
+}
+alert('correct answer is 10' );
+var myFavWebsites = ['yahoo','google','yandex'];
+
+for (var i=1; i<=6;i++){
+    var authormostvisited = prompt('what are the author\'s most favourite search engines? ');  
+    if(authormostvisited == myFavWebsites[0] || authormostvisited == myFavWebsites[1] || authormostvisited == myFavWebsites[2]){
+        alert('correct');
+        score++;
+        break;
+        }
+        else   {
+            alert('wrong'); 
+        }
+}
+alert('here are the possible answers ' + myFavWebsites);
+    
 if (score >= 3)
 {
     alert('good job Your Grade is ' + score);
