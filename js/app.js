@@ -3,7 +3,7 @@
 var userName = prompt('what is your name?');
 alert('Hello ' + userName + ' welcome to my website' );
 
-function quiz(){
+function test(){
 
 
 var score = 0;
