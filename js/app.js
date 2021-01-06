@@ -85,42 +85,41 @@ for (var i=1; i<=4;i++){
 }
 alert('correct answer is 10' );
 
-var myFavWebsites = ['yahoo','google','yandex'];
-var correctAnswer = false;
-var authormostvisited;
-var i = 0;
-while (i <= 5 && !correctAnswer)
-{
-    authormostvisited = prompt('what are the author\'s most favourite search engines? ');
-for (var j=0; j<myFavWebsites.length; j++)
-{
-    if (authormostvisited == 'hi')
-    {
-        alert('Correct'); 
-        correctAnswer = true;
-        console.log('cccc');
-    }
-    else{
-        prompt('what are the author\'s most favourite search engines? ');        
-        i++;
-    }
-    break
-}
-
-}
-alert('here are the possible answers ' + myFavWebsites);
-
-// for (var i=1; i<=6;i++){
-//     var authormostvisited = prompt('what are the author\'s most favourite search engines? ');  
-//     if(authormostvisited == myFavWebsites[0] || authormostvisited == myFavWebsites[1] || authormostvisited == myFavWebsites[2]){
-//         alert('correct');
-//         score++;
-//         break;
-//         }
-//         else   {
-//             alert('wrong'); 
-//         }
+// var myFavWebsites = ['yahoo','google','yandex'];
+// var correctAnswer = false;
+// var authormostvisited;
+// var i =0;
+// while (i <= 5 && !correctAnswer)
+// {
+//     authormostvisited = prompt('what are the author\'s most favourite search engines? ');
+// for (var j=0; j<myFavWebsites.length; j++)
+// {
+//     if (authormostvisited == myFavWebsites)
+//     {
+//         alert('Correct'); 
+//         correctAnswer = true;
+//         console.log('cccc');
+//     }
+//     else{
+//         prompt('what are the author\'s most favourite search engines? ');        
+        
+//     }
+//     break;
 // }
+// i++;
+// }
+// alert('here are the possible answers ' + myFavWebsites);
+for (var i=1; i<=6;i++){
+    var authormostvisited = prompt('what are the author\'s most favourite search engines? ');  
+    if(authormostvisited == myFavWebsites[0] || authormostvisited == myFavWebsites[1] || authormostvisited == myFavWebsites[2]){
+        alert('correct');
+        score++;
+        break;
+        }
+        else   {
+            alert('wrong'); 
+        }
+}
 alert('here are the possible answers ' + myFavWebsites);
     
 if (score >= 3)
