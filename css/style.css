@@ -1,6 +1,17 @@
 body {
     margin: 10px;
 }
+.myHeader
+{
+    display: flex;
+    background-color: antiquewhite !important;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{list-style-type: none;
+margin: 5px;}
 .aboutMe
 {
 text-align: center;
